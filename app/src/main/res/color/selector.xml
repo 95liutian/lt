@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 文字背景选择器选中的时候颜色变成红色 -->
+    <item android:state_selected="true" android:color="#eb4f38"/>
+    <!-- 文字背景选择器活跃的时候颜色也是红色的 -->
+    <item android:state_active="true" android:color="#eb4f38"/>
+    <!-- 文字背景选择器不选中的时候灰色 -->
+    <item android:state_selected="false" android:color="#a9b7b7"/>
+    <!-- 文字背景选择器不活跃的时候灰色 -->
+    <item android:state_active="false" android:color="#a9b7b7"/>
+</selector>
